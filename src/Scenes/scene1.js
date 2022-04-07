@@ -60,9 +60,6 @@ const Scene1 = React.forwardRef(({ nextFunc, _geo, _baseGeo }, ref) => {
             if (!isGameplaying) {
                 isGameplaying = true
             }
-            audioList.backAudio.play().catch(error => { }).catch(error => {
-            });
-
             nextFunc();
         }, 200);
 
